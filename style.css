@@ -1,6 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    min-width: 20em;
 }
 
 .gridcontainer {
@@ -19,7 +20,7 @@ body {
 }
 
 .greeter {
-    border-right: solid;
+    border: solid;
 }
 
 .scrolledgrid {
