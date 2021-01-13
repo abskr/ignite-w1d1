@@ -1,0 +1,38 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.gridcontainer {
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 50vw;
+}
+
+.greeter {
+    border-right: solid;
+}
+
+.scrolledgrid {
+    overflow-y: scroll;
+}
+
+.myimage,
+.aboutme,
+.hobbiesandinterest,
+.table {
+    padding: 3em;
+}
+
+.myselfie {
+    height: 100vh;
+}
+
+ul {
+    -moz-column-count: 2; /* For FireFox */
+    -webkit-column-count: 2; /* For Safari/Chrome */
+    column-count: 2; /* For when the standard gets fully supported */
+    }
+
