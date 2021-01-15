@@ -2,6 +2,7 @@ body {
     padding: 0px;
     margin: 0px;
     min-width: 20em;
+    font-size: 16px;
 }
 
 .gridcontainer {
@@ -20,8 +21,34 @@ body {
 }
 
 .greeter {
-    border: solid;
+    background-image: url(pics/imageonline-co-blurimage.png);
+    background-size: cover;
+    text-align: left;
+    padding-top: 5em;
+    padding-left: 0.5em;
+    position: relative;
 }
+ 
+.greeterseparator {
+    width: 430px;
+    min-width: 330px;
+    float: left;
+}
+
+h1,
+h2{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.1em;
+}
+
+footer {
+    position: absolute;
+    bottom: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.1em;
+}
+
 
 .scrolledgrid {
     overflow-y: scroll;
