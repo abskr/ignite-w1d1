@@ -5,6 +5,10 @@ body {
     font-size: 16px;
 }
 
+hr {
+    margin: 0;
+}
+
 .gridcontainer {
     padding: 0px;
     margin: 0px;
@@ -14,7 +18,7 @@ body {
     overflow: hidden;
 }
 
-@media only screen and (max-width: 60em) {
+@media only screen and (max-width: 43.75em) {
     .gridcontainer {
         grid-template-columns: 100vw;
     }
@@ -23,6 +27,9 @@ body {
 .greeter {
     background-image: url(pics/imageonline-co-blurimage.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     text-align: left;
     padding-top: 5em;
     padding-left: 0.5em;
@@ -30,7 +37,7 @@ body {
 }
  
 .greeterseparator {
-    width: 430px;
+    max-width: 430px;
     min-width: 330px;
     float: left;
 }
