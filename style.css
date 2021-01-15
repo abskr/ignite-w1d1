@@ -27,8 +27,6 @@ hr {
 .greeter {
     background-image: url(pics/imageonline-co-blurimage.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     text-align: left;
     padding-top: 5em;
@@ -37,8 +35,7 @@ hr {
 }
  
 .greeterseparator {
-    max-width: 430px;
-    min-width: 330px;
+    width: 90%;
     float: left;
 }
 
