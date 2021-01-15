@@ -78,3 +78,46 @@ ul {
     column-count: 2; /* For when the standard gets fully supported */
     }
 
+
+.repeating-before {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        padding-left: 1rem;
+          text-indent: -0.7rem;
+        }
+      
+    li:nth-child(7n+1)::before {
+          content: "🎼 ";
+        }
+      
+    li:nth-child(7n+2)::before {
+          content: "💭 ";
+        }
+        
+    li:nth-child(7n+3)::before {
+          content: "🎮 ";
+        }
+
+    li:nth-child(7n+4)::before {
+            content: "💻 ";
+          }
+        
+    li:nth-child(7n+5)::before {
+            content: "📸 ";
+          }
+          
+    li:nth-child(7n+6)::before {
+            content: "🍲 ";
+          }
+
+    li:nth-child(7n)::before {
+            content: "👥 ";
+          }
+    
+     
+    
+      
